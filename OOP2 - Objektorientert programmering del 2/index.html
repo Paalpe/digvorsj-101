@@ -1,11 +1,63 @@
-<html>
+<html data-theme="light"> <!-- data-theme="dark" -->
 
 <head>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="utsjaanad.css">
 </head>
 
 <body>
+    <main class="container" style="max-width: 800px;">
+        <div class="headings">
+            <h1>💰 Mini Bank </h1>
+            <i>Vår lille bank for Kari, Petter og lille lise</i>
+        </div>
+
+        <article>
+            <header>
+                <div class="headings">
+                    <h4>👏 Alle våre kunder</h4>
+                    <h4> <i class="i">Her vises alle kundene i <s>banken.</s> <a>den lille banken.</a></i></h4>
+                </div>
+            </header>
+
+
+            <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="secondary"><small>#</small></th>
+                            <th scope="col"><small> &gt;16år</small></th>
+                            <th scope="col"><small>nr</small></th>
+                            <th scope="col">
+                                <bold>💸</bold>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="kontoer">
+                        <!-- Kotoene kommer her -->
+                    </tbody>
+                </table>
+            </main>
+        </article>
+
+        <!-- <h2>. . .</h2> -->
+
+        <div class="headings">
+            <h1 class><kbd id="klokken-skal-tikke-og-gaa">06:00:00</kbd></h1>
+            <small id="klokken-context">⏰ <i>BRrrr!</i> God morgen!</small>
+        </div>
+        <progress id="progress" value="10" max="100"></progress>
+
+
+        <button id="videre">Start dagen!</button>
+        <button id="rediger-eksisterende-kontoer" class="outline">Rediger</button>
+
+        <!-- lol -->
+        <a class="secondary" href="" onclick="document.location.reload">reset</a>
+    </main>
+
+
 </body>
-<script src="app.js"></script>
+<script src="bank.js"></script>
 
 </html>
