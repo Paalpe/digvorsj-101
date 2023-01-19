@@ -7,7 +7,10 @@ Objektorientert programmering: klasser, objekter, metoder, konstruktører, arv. 
 <br>
 🍿 Live &nbsp; 🚀 Code &nbsp; ✅ Done
 
-### OOP2
+## 💰 [**OOP2 Introduksjon til objektorientering med JavaScript Del 2**](https://paal-sorvik-pedersen.notion.site/OOP2-Objektorientert-programmering-del-2-a6600889d4f144e281aa09ea804b0fd6)
+![bank](https://user-images.githubusercontent.com/37175836/213461283-8c306698-a1a1-4730-b0b3-f5302f5cdd15.gif)
+
+🍿 Live &nbsp; 🚀 Code &nbsp; ✅ Done
 
 ### OOP3
 
