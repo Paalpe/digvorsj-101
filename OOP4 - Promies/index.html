@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>promies.js</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+</head>
+
+<main>
+
+    <div class="container" style="max-width: 500px;">
+        <code style="margin-bottom: 8px;">// Velg en av oppgavene</code>
+        <figure>
+            <button class="secondary outline" style="border-radius: 4px 0px 0px 4px; ">
+                1
+            </button>
+            <button class="secondary outline" style="border-radius: 0; border-left: 0; border-right: 0; ">
+                2
+            </button>
+            <button class="secondary outline" style="border-radius: 0px 4px 4px 0px;">
+                3
+            </button>
+        </figure>
+
+
+        <article>
+            <header>
+                <div class="headings">
+                    <h3 id="overskrift">🎁 Promises</h3>
+                    <h4 id="forklaring">Kalle på funksjoner osv..</h4>
+                </div>
+            </header>
+            <p>
+                <code style="min-height: 100px; width: 100%;" id="log">Loggen vil vises her ...</code>
+            </p>
+
+            <button id="button">Gå til oppgave 1</button>
+        </article>
+
+
+
+    </div>
+
+
+</main>
+
+</html>
+
+<style>
+
+    figure {
+        /* grid spacing 0 */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0;
+        margin: 0px 0px;
+
+    }
+
+    [data-theme="light"],
+    :root:not([data-theme="dark"]) {
+        --primary: #fb8c00;
+        --primary-hover: #f57c00;
+        --primary-focus: rgba(251, 140, 0, 0.125);
+        --primary-inverse: #FFF;
+    }
+
+    /* Orange Dark scheme (Auto) */
+    /* Automatically enabled if user has Dark mode enabled */
+    @media only screen and (prefers-color-scheme: dark) {
+        :root:not([data-theme]) {
+            --primary: #fb8c00;
+            --primary-hover: #ff9800;
+            --primary-focus: rgba(251, 140, 0, 0.25);
+            --primary-inverse: #FFF;
+        }
+    }
+
+    /* Orange Dark scheme (Forced) */
+    /* Enabled if forced with data-theme="dark" */
+    [data-theme="dark"] {
+        --primary: #fb8c00;
+        --primary-hover: #ff9800;
+        --primary-focus: rgba(251, 140, 0, 0.25);
+        --primary-inverse: #FFF;
+    }
+
+    /* Orange (Common styles) */
+    :root {
+        --form-element-active-border-color: var(--primary);
+        --form-element-focus-color: var(--primary-focus);
+        --switch-color: var(--primary-inverse);
+        --switch-checked-background-color: var(--primary);
+    }
+</style>
