@@ -32,7 +32,12 @@ Objektorientert programmering: klasser, objekter, metoder, konstruktører, arv. 
 <br>
 
 
-### OOP4
+## 🎁 [**OOP4 Promises**](https://paal-sorvik-pedersen.notion.site/ving-OOP4-Promises-b3ecdfabfbde497997a3be9164689a54)
+<img src="https://user-images.githubusercontent.com/37175836/216057504-eabba481-e4b0-459c-8b3f-211544509383.gif" width="250"/>
 
 
-…
+🍿 Live &nbsp; 🚀 Code &nbsp; ✅ Done
+<br>
+[**-> Til de vibrerende boblene**](https://paalpe.github.io/digvorsj-101/OOP4%20-%20Promies/)
+
+<br>
