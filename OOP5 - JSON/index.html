@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fjelltoppene.js</title>
+    <meta name="description" content="En nettside som vise fjelltopper">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏔️</text></svg>">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+</head>
+
+<body>
+    <div class="container" style="max-width: 500px;">
+        <header style="padding: 48px 0;">
+            <div class="headings">
+                <h3>🏔️ Fjelltopper</h3>
+                <h4>Her er noen av de høyeste fjelltoppene</h4>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Navn</th>
+                    <th scope="col">Høyde</th>
+                    <th scope="col">Fylke</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js" async defer></script>
+    <script type="text/javascript" src="fjelltopper.json" defer async></script>
+</body>
+
+</html>

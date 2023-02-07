@@ -1,0 +1,68 @@
+[
+    {
+        "navn": "Folarskardnuten",
+        "fylke": "Viken",
+        "hoyde": 1933,
+        "prom": 955
+    },
+    {
+        "navn": "Galdhøpiggen",
+        "fylke": "Innlandet",
+        "hoyde": 2469,
+        "prom": 2372
+    },
+    {
+        "navn": "Gaustatoppen",
+        "fylke": "Vestfold og Telemark",
+        "hoyde": 1883,
+        "prom": 958
+    },
+    {
+        "navn": "Jiehkkevárri",
+        "fylke": "Troms og Finnmark",
+        "hoyde": 1834,
+        "prom": 1737
+    },
+    {
+        "navn": "Kjerkeberget",
+        "fylke": "Oslo",
+        "hoyde": 630,
+        "prom": 37
+    },
+    {
+        "navn": "Oksskolten",
+        "fylke": "Nordland",
+        "hoyde": 1915,
+        "prom": 1382
+    },
+    {
+        "navn": "Pyttegga",
+        "fylke": "Møre og Romsdal",
+        "hoyde": 1999,
+        "prom": 566
+    },
+    {
+        "navn": "Store Skagastølstinden",
+        "fylke": "Vestland",
+        "hoyde": 2405,
+        "prom": 1013
+    },
+    {
+        "navn": "Storskrymten",
+        "fylke": "Trøndelag",
+        "hoyde": 1985,
+        "prom": 606
+    },
+    {
+        "navn": "Sæbyggjenuten",
+        "fylke": "Agder",
+        "hoyde": 1507,
+        "prom": 328
+    },
+    {
+        "navn": "Vassdalseggi",
+        "fylke": "Rogaland",
+        "hoyde": 1658,
+        "prom": 506
+    }
+]
