@@ -41,3 +41,14 @@ Objektorientert programmering: klasser, objekter, metoder, konstruktører, arv. 
 [**-> Til de vibrerende boblene**](https://paalpe.github.io/digvorsj-101/OOP4%20-%20Promies/)
 
 <br>
+
+
+## 🏔️ [**OOP5 JSON**](https://paal-sorvik-pedersen.notion.site/ving-5-JSON-87bac3efcfd54e9b824cc752238dd04b)
+<img src="https://user-images.githubusercontent.com/37175836/217292726-b49a700e-cc44-46e1-b9dd-0fdd15bc414a.gif" width="250"/>
+
+
+🍿 Live &nbsp; 🚀 Code &nbsp; ✅ Done
+<br>
+[**-> Til de kalde fjelltoppene**](https://paalpe.github.io/digvorsj-101/OOP5%20-%20JSON/)
+
+<br>
