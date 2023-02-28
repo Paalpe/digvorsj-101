@@ -1,2 +1,3 @@
 .gitignore
 forelesning/
+node_modules/
