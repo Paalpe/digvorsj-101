@@ -7,3 +7,5 @@ OOP7 - Dynamiske applikasjoner med databasekommunikasjon/src/.DS_Store
 .env
 */package-lock.json
 .DS_Store
+*/.expo/
+*/.expo-shared/
