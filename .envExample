@@ -1,0 +1,3 @@
+MYSQL_HOST=mysql-ait.stud.idi.ntnu.no
+MYSQL_PASSWORD=abc123456
+MYSQL_USER=username
